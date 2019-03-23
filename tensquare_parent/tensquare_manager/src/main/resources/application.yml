@@ -1,0 +1,24 @@
+#server:
+#  port: 9011
+#
+#spring:
+#  application:
+#    name: tensquare-manager #指定服务名
+#
+#eureka:
+#  client:
+#    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+#      defaultZone: http://localhost:6868/eureka/
+#  instance:
+#    prefer-ip-address: true
+#
+#zuul:
+#  routes:
+#    # 用户微服务
+#    tensquare-gathering:
+#      path: /admin/**
+#      serviceId: tensquare-user
+#jwt:
+#  config:
+#    key: kongqi
+#    ttl: 360000

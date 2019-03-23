@@ -1,0 +1,31 @@
+#server:
+#  port: 9008
+#spring:
+#  application:
+#    name: tensquare-user #指定服务名
+#  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.80.130:3306/tensquare_user?characterEncoding=UTF8
+#    username: root
+#    password: root
+#  jpa:
+#    database: MySQL
+#    show-sql: true
+#  redis:
+#    host: 192.168.80.130
+#  rabbitmq:
+#    host: 192.168.80.130
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:6868/eureka/
+#    register-with-eureka: true
+#    fetch-registry: true
+#  instance:
+#    prefer-ip-address: true
+#
+#jwt:
+#  config:
+#    key: kongqi #jwt加盐
+#    ttl: 360000 #token过期时间

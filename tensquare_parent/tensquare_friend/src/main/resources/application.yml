@@ -1,0 +1,28 @@
+#server:
+#  port: 9010
+#
+#spring:
+#  application:
+#    name: tensquare-friend
+##数据库连接信息
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.80.128:3306/tensquare_friend?characterEncoding=utf-8
+#    username: root
+#    password: root
+##jpa信息
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#
+#jwt:
+#  config:
+#    key: kongqi
+#    ttl: 360000
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:6868/eureka/
+#  instance:
+#    prefer-ip-address: true

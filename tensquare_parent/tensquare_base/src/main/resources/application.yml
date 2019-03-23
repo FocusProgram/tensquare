@@ -1,0 +1,29 @@
+##端口号
+#server:
+#  port: 9001
+#
+##微服务名
+#spring:
+#  application:
+#    name: tensquare-base
+#  #数据库连接信息
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.80.130:3306/tensquare_base?characterEncoding=utf-8
+#    username: root
+#    password: root
+#  rabbitmq:
+#    host: 192.168.80.130
+#  #jpa信息
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:6868/eureka/
+#  instance:
+#    prefer-ip-address: true
+#
+#ip: 192.168.80.130
