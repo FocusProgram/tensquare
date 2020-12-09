@@ -9,8 +9,8 @@
 #
 #aliyun:
 #  sms:
-#    accessKeyId: LTAIwLpTdv2WJf6D
-#    accessKeySecret: 6BwtlrqdEvFkh61OGhrZpTspchmFIb
+#    accessKeyId: {accessKeyId}
+#    accessKeySecret: {accessKeySecret}
 #    template_code: SMS_151767230
 #    sign_name: sPlus
 #
